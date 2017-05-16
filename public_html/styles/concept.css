@@ -86,7 +86,7 @@ a:hover {
 .concept #container #mainContent .slideshow #thumbs {
 	height: 95px;
 	padding: 20px 0 0 0;
-	overflow-x: scroll;
+	overflow-x: hidden;
 	white-space: nowrap;
 	margin-bottom: 10px;
 	width: 500px;
