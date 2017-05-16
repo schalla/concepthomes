@@ -1,0 +1,254 @@
+@charset "utf-8";
+body {
+	font: 100%  Arial, Verdana, Helvetica, sans-serif;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	background-color: #B7A576;
+}
+.concept #container {
+	width: 964px;
+	margin: 2em auto 0 auto;
+	text-align: left;
+	background-color: #B7A576;
+	padding: 0;
+}
+.concept #header {
+	padding: 2px 0 0 0;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+	background-image: url(../layout/headerbkg.jpg);
+	height: 130px;
+	background-repeat: no-repeat;
+}
+.concept #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.concept #mainContent {
+	padding: 0 20px;
+	background-image: url(../layout/contentbkg.jpg);
+}
+.concept #footer {
+	padding: 5px 0 3px 0;
+	background-image: url(../layout/footerDark.png);
+	margin: 0;
+	position: relative;
+	bottom: 15px;
+	background-position: bottom;
+	text-align: center;
+	font-size: 75%;
+	color: #B9B2A9;
+}
+.concept #container #header img {
+	position: relative;
+	right: 3px;
+	top: 0px;
+}
+
+.concept #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+ #nav {
+	font-size: 75%;
+	font-weight: bold;
+	height: 2.4em;
+	width: 954px;
+	position: relative;
+	right: 16px;
+	background-color: #683d15;
+	bottom: 2px;
+	letter-spacing: 1px;
+}
+.concept #container .clear {
+	line-height: 0px;
+	clear: both;
+}
+.concept #container .credits table {
+	font-size: 70%;
+	width: 940px;
+	margin: -8px auto 5px auto;
+}
+.concept #container .credits a {
+	color: #683D15;
+}
+a:hover {
+	color: #E6E3DC;
+}
+.concept #container #mainContent .slideshow {
+	float: right;
+	width: 585px;
+	margin: 25px 0;
+	font-size: 90%;
+	color: #005500;
+	text-align: center;
+}
+.concept #container #mainContent .slideshow #thumbs {
+	height: 95px;
+	padding: 20px 0 0 0;
+	overflow-x: scroll;
+	white-space: nowrap;
+	margin-bottom: 10px;
+	width: 500px;
+	scrollbar-3dlight-color:#cb8;
+	scrollbar-arrow-color:#cb8;
+	scrollbar-base-color:#943;
+	scrollbar-darkshadow-color:#641;
+	scrollbar-face-color:#683d15;
+	scrollbar-highlight-color:#b7a576;
+	scrollbar-shadow-color:#666
+}
+
+.concept #container #mainContent .slideshow img {
+	border: 3px solid #442211;
+}
+.concept #container #mainContent .logo {
+	margin: 40px 0px 30px 60px;
+	height: 116px;
+	width: 189px;
+	float: left;
+}
+.concept #container #mainContent #headline {
+	Float: right;
+	padding-top: 50px;
+	padding-right: 15px;
+}
+.concept #container #mainContent #headline H1 {
+	font-family: "Palatino Linotype, Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: normal;
+	letter-spacing: 2px;
+	color: #683D15;
+}
+.concept #container #mainContent #builderWelcome {
+	background-repeat: no-repeat;
+	padding: 35px 35px 50px 30px;
+	width: 269px;
+	float: left;
+	background-size: 99% 95%;
+	margin-right: 5px;
+	background-image: url(../layout/builderWelcom2.png);
+	/* [disabled]min-height: 460px; */
+	margin-top: 15px;
+}
+.concept #container #mainContent #builderWelcome p {
+	font-size: 14px;
+	color: #683D15;
+}
+.concept #container #mainContent .green {
+	width: 85%;
+	margin: 00px auto;
+	text-align: justify;
+	color: #005500;
+	font-size: 90%;
+}
+.concept #container #mainContent .slideshow #frame {
+	background-image: url(../layout/frame.png);
+	background-repeat: no-repeat;
+	width: 582px;
+	height: 485px;
+	background-position: -4px -3px;
+}
+.concept #container #mainContent .slideshow #frame img {
+	height: 360px;
+	width: 470px;
+	position: relative;
+	top: 57px;
+	right: 5px;
+	border: 0;
+}
+.concept #container #footer table {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin: 0 auto;
+	width: 860px;
+}
+.contentText {
+	margin: 10px 0 25px 370px;
+	font-size: 15px;
+	color: #421;
+}
+.highlights {
+	width: 100%;
+	text-align: center;
+}
+.concept #container #mainContent .highlights img {
+	margin: 10px 15px;
+	border: 1px solid #421;
+}
+.concept #container #mainContent #builderWelcome td {
+	text-align: center;
+	padding-right: 5px;
+	color: #683d15;
+	font-size: 90%;
+}
+.concept #container #mainContent #builderWelcome a {
+	color: #114400;
+	text-decoration: none;
+	font-size: 15px;
+}
+.concept #container #mainContent #builderWelcome a:hover {
+	color: #B7A576;
+}
+.concept #container #footer table tr td a {
+	color: #b9b2a9;
+	text-decoration: none;
+}
+.concept #container #footer table tr td a:hover {
+	color: #C9B789;
+}
+.featured {
+	text-align: center;
+	font-size: 15px;
+}.align-left {
+	text-align: left;
+}
+.concept #container #mainContent address {
+	text-align: center;
+	width: 350px;
+	color: #52340E;
+}
+.concept #container #mainContent .leftSide {
+	float: left;
+	width: 355px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.concept #container #mainContent .leftSide a {
+	color: #114400;
+	text-decoration: none;
+}
+.concept #container #mainContent .leftSide a:hover {
+	color: #B7A576;
+}
+.concept #container #mainContent div h4 {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #005500;
+	font-weight: bold;
+	padding: 10px 0px;
+	margin: 0;
+}
+.concept #container #mainContent .contentText .associates a img {
+	/* [disabled]float: left; */
+	border: 0;
+	margin: 10px 10px 0px 0;
+}
+ .associates p a {
+	color: #114400;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: right;
+	padding: 20px;
+	
+}
+ .associates p a:hover {
+	color: #663300;
+	text-decoration: underline;
+}.rightFlt {
+	float: right;
+	padding: 10px;
+	margin: 0;
+}

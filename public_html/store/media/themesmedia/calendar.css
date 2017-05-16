@@ -1,0 +1,88 @@
+/* Calendar Pop-up Style Sheet */
+
+.date_cpYearNavigation,
+.date_cpMonthNavigation
+{
+  background-color:#6677DD;
+  text-align:center;
+  vertical-align:center;
+  text-decoration:none;
+  color:#FFFFFF;
+  font-weight:bold;
+}
+
+.date_cpDayColumnHeader,
+.date_cpYearNavigation,
+.date_cpMonthNavigation,
+.date_cpCurrentMonthDate,
+.date_cpOtherMonthDate,
+.date_cpCurrentDate,
+.date_cpTodayText,
+.date_cpText
+{
+  font-family:arial;
+  font-size:8pt;
+}
+
+td.date_cpDayColumnHeader
+{
+  text-align:right;
+  border:solid thin #6677DD;
+  border-width:0 0 1 0;
+}
+
+.date_cpCurrentMonthDate,
+.date_cpOtherMonthDate,
+.date_cpCurrentDate
+{
+  text-align:right;
+  text-decoration:none;
+}
+
+.date_cpCurrentMonthDate
+{
+  color:#6677DD;
+  font-weight:bold;
+}
+
+.date_cpCurrentDate
+{
+  color: #FFFFFF;
+  font-weight:bold;
+}
+
+.date_cpOtherMonthDate
+{
+  color:#808080;
+}
+
+td.date_cpCurrentDate
+{
+  color:#FFFFFF;
+  background-color: #6677DD;
+  border-width:1;
+  border:solid thin #000000;
+}
+
+td.date_cpTodayText
+{
+  border:solid thin #6677DD;
+  border-width:1 0 0 0;
+}
+
+a.date_cpTodayText
+{
+  height:20px;
+}
+
+a.date_cpTodayText
+{
+  color:#6677DD;
+  font-weight:bold;
+}
+
+.date_cpBorder
+{
+  border:solid thin #6677DD;
+}
+

@@ -1,0 +1,149 @@
+/***********************/
+/***  Page Defaults  ***/
+/***********************/
+body {
+  background-color: #FFFFE0;
+  color: #000099;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin-top: 10pt;
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-bottom: 1em;
+}
+
+/***********************/
+/***  Headings       ***/
+/***********************/
+h1 {
+  font-size: 14pt;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 0pt;
+}
+
+h2 {
+  background-color: #CCCC99;
+  font-family: Times-Roman, serif;
+  font-size: 13pt;
+  font-weight: bold;
+  margin-bottom: 4pt;
+  text-align: center;
+}
+
+h3 {
+  font-size: 10pt;
+  font-weight: bold;
+  margin-bottom: 0pt;
+  display: inline;
+}
+
+h4 {
+  font-size: 10pt;
+  font-weight: normal;
+  margin-bottom: 0pt;
+  display: inline;
+}
+
+/***********************/
+/***  Table Cells    ***/
+/***********************/
+th {
+  text-align: center;
+  vertical-align: middle;
+  background-color: #CCCC99;
+  font-size: 7.5pt;
+}
+
+th.theme {
+  text-align: center;
+  vertical-align: middle;
+  background-color: #CCCC99;
+  font-size: 8.5pt;
+}
+	
+td.field_name, td.fn {
+  text-align: left;
+  vertical-align: middle;
+  background-color: #CCCC99;
+  font-size: 7.5pt;
+}
+
+td.field_value, td.fv {
+  background-color: #FFFFCC;
+  font-size: 7.5pt;
+}
+
+td.selection_head {
+  text-align: center;
+  font-size: 9pt;
+}
+
+td.copyright {
+  color: #999999;
+  font-size: 7.5pt;
+}
+
+td.button {
+  padding-left: 1pt;
+  padding-right: 1pt;
+}
+
+li {
+  margin-bottom: 4pt;
+}
+
+/***********************/
+/***  Multi-Use      ***/
+/***********************/
+.text {
+  font-size: 9pt;
+  line-height: 120%;
+}
+
+.instructions {
+  font-size: 7.5pt;
+}
+
+/******************************/
+/***  Character Formatting  ***/
+/******************************/
+i {
+  font-style: italic;
+}
+
+/******************************/
+/***  eBay Formatting  ***/
+/******************************/
+
+table.boxit { border-left-style: inset;
+  border-right-style: inset;
+  border-bottom-style: inset;
+}
+
+td.boxit { border-left-style: groove;
+  border-right-style: groove;
+  border-bottom-style: groove;
+}
+
+.ebay { color: green;
+  font-weight: bold;
+}
+
+.require { color: red;
+  font-weight: bold;
+}
+
+.sup { vertical-align: super;
+}
+
+.required { background-color: #ddeecc;
+  opacity: 1;
+}
+
+/*************************/
+/*** Cornwarn Messages ***/
+/*************************/
+table.cornwarn2 {
+  font-family: "Times New Roman", Times, serif;
+}
+

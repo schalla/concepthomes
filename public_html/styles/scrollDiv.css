@@ -1,0 +1,35 @@
+#thumbs2 {
+	position: relative;
+	width: 500px;
+	height: 100px;
+	overflow: hidden;
+}
+
+#scroller {
+  width: 500px; /* = width + margin left + margin right + padding*2 + border*2  from the content rule */
+}
+
+#scroller img {
+  width: 115px;
+  height: 96px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.scrollNav, .scrollNav a:link, .scrollNav a:visited  {
+  font-size: .8em;
+  color:#00009C;
+  font-weight: bold;
+}
+
+[if IE]>
+<style type="text/css">
+
+#scroller{
+  width: 882px; /* = width + margin left + margin right from the content rule + border*2 from the container rule*/
+}
+
+</style>
+<! [endif]
