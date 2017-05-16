@@ -5,6 +5,13 @@
 	overflow: hidden;
 }
 
+#thumbs3 {
+	position: relative;
+	width: 500px;
+	height: 100px;
+	overflow: hidden;
+}
+
 #scroller {
   width: 500px; /* = width + margin left + margin right + padding*2 + border*2  from the content rule */
 }
