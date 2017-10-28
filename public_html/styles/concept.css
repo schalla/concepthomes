@@ -135,6 +135,11 @@ a:hover {
 	font-size: 14px;
 	color: #683D15;
 }
+
+.concept #container #mainContent #builderWelcome ul {
+	font-size: 14px;
+	color: #683D15;
+}
 .concept #container #mainContent .green {
 	width: 85%;
 	margin: 00px auto;
