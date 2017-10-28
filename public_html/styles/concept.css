@@ -210,8 +210,9 @@ a:hover {
 }
 .concept #container #mainContent address {
 	text-align: center;
-	width: 350px;
 	color: #52340E;
+	font-size: 16px;
+	font-weight: bold;
 }
 .concept #container #mainContent .leftSide {
 	float: left;
@@ -221,11 +222,19 @@ a:hover {
 	text-align: center;
 	padding-bottom: 20px;
 }
+
 .concept #container #mainContent .leftSide a {
 	color: #114400;
 	text-decoration: none;
 }
 .concept #container #mainContent .leftSide a:hover {
+	color: #B7A576;
+}
+.concept #container #mainContent .address a {
+	color: #114400;
+	text-decoration: none;
+}
+.concept #container #mainContent .address a:hover {
 	color: #B7A576;
 }
 .concept #container #mainContent div h4 {
